@@ -1,0 +1,100 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Nunito:wght@200;300;400;500;600;700&family=Satisfy&display=swap');
+
+:root {
+    --primary: #00c2ba;
+    --primary-brightness-70: #48d3cd;
+    --primary-light: #defffd;
+    --primary-gradient: linear-gradient(#00c2ba, #cae4ff);
+    --primary-brightness: #effafa;
+    --primary-hover: rgba(0, 194, 186, 0.8);
+    --white: #fff;
+    --black: #000;
+    --black-blur: rgb(242, 242, 242);
+
+    // text
+    --text-primary: rgba(22, 24, 35, 1);
+    --text-gray: rgb(120, 120, 120);
+
+    //Default layout
+    --default-layout-width: 1200px;
+    // --default-layout-width: 100vw;
+    --default-layout-header-height: 120px;
+
+    //width height
+    --search-width: 830px;
+    --search-btn-width: 60px;
+}
+
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a,
+a[href] {
+    color: var(--text-primary);
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+li {
+    list-style: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}

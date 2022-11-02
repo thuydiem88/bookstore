@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "title": "Đừng Lãng Phí Những Ngày Đẹp Trời",
+        "price": "78.000đ",
+        "description": "Có những ngày dài thật buồn, bó gối trong căn phòng nhỏ, nhìn ra bầu trời cao rộng ngoài kia, tôi luôn mang trong mình suy nghĩ bầu trời ấy không có chỗ dành cho tôi. Tôi luôn tự hỏi “Mình muốn làm gì?”, “Mình phải làm gì?”, “Mình cố gắng vì điều gì?”,…",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/1.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 539
+        },
+        "author": "Jinie Lynk",
+        "company": "1980 books",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 2,
+        "title": "Việc Làng",
+        "price": "51.300đ",
+        "description": "Rồi hắn nhấc cả con gà ra thớt. Bắt đầu chặt lấy cái sỏ, sau mới chặt đến miếng phao câu. Thình lình thấy hắn đứng lên ngoảnh mặt vào phía mấy ông đàn anh: - Thưa trình các cụ, hôm nay sỏ gà pha mấy? phao gà pha mấy?",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/2.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        },
+        "author": "Ngô Tất Tố",
+        "company": "Nhà sách Minh Thắng",
+        "publishingCompany": "Nhà Xuất Bản Văn Học"
+    },
+    {
+        "id": 3,
+        "title": "Tâm Lý Học Về Tiền",
+        "price": "126.000đ",
+        "description": "Chúng ta hiếm khi lâm vào hoàn cảnh nợ ngập đầu ư? Biết tiết kiệm để dành cho lúc khốn khó hơn ư? Chuẩn bị sẵn sàng cho việc nghỉ hưu? Có những cái nhìn thiết thực về mối quan hệ giữa tiền và hạnh phúc của chúng ta hơn phải không?",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/3.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        },
+        "author": "Morgan Housel",
+        "company": "1980 Books",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 4,
+        "title": "Rèn Luyện Tư Duy Phản Biện",
+        "price": "59.500đ",
+        "description": "Những người khác có thể đưa ra những góc nhìn khác mà bạn có thể chưa bao giờ nghĩ tới, và họ có thể chỉ ra những lỗ hổng trong logic của bạn mà bạn đã hoàn toàn bỏ qua. Bạn không cần phải hoàn toàn đồng ý với ý kiến của những người khác, bởi vì điều này cũng có thể dẫn tới những vấn đề liên quan đến thiên kiến, nhưng một cuộc thảo luận phản biện là một bài tập tư duy cực kỳ hiệu quả.",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/4.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        },
+        "author": "Albert Rutherford",
+        "company": "1980 Books",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 5,
+        "title": "Tạo Dựng Thương Hiệu Cá Nhân",
+        "price": "59.000đ",
+        "description": "Trong thời đại này, người có sức hút là người thắng cuộc. Bạn càng biết cách bộc lộ thế mạnh, càng tích cực giúp ích cho cộng đồng - cơ hội thành công đến với bạn càng lớn hơn. Hay nói cách khác, đây là thời đại mà mỗi chúng ta buộc phải xây dựng thương hiệu cá nhân nếu như không muốn tụt hậu.",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/5.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        },
+        "author": "Yamamoto Hideyuki",
+        "company": "1980 Books",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 6,
+        "title": "Thiên Tài Bên Trái, Kẻ Điên Bên Phải",
+        "price": "122.000đ",
+        "description": "Hỡi những con người đang oằn mình trong cuộc sống, bạn biết gì về thế giới của mình? Là vô vàn thứ lý thuyết được các bậc vĩ nhân kiểm chứng, là luật lệ, là cả nghìn thứ sự thật bọc trong cái lốt hiển nhiên, hay những triết lý cứng nhắc của cuộc đời?",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/6.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 1200
+        },
+        "author": "Cao Minh",
+        "company": "Vibooks",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 7,
+        "title": "Nghệ Thuật Đánh Cắp Ý Tưởng",
+        "price": "64.000đ",
+        "description": "Cuốn sách gửi tới chúng ta thông điệp: thực tế là không có thứ gì trên đời là nguyên bản. Vậy nên hãy học hỏi từ các tác phẩm của người khác, phối lại, mường tượng lại và khám phá ra trên con đường riêng của bạn. Hãy cứ dành thời gian cho những việc bạn thích làm, đôi khi những điều ban đầu chỉ là sở thích lại trở thành công việc bạn sẽ đeo đuổi suốt đời. Hãy cứ viết cuốn sách mà bạn muốn đọc, sản xuất bộ phim mà bạn muốn xem.",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/7.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        },
+        "author": "Austin Kleon",
+        "company": "Alphabooks",
+        "publishingCompany": "Nhà Xuất Bản Thế Giới"
+    },
+    {
+        "id": 8,
+        "title": "Đắc Nhân Tâm",
+        "price": "73.000đ",
+        "description": "Là quyển sách đầu tiên có ảnh hưởng làm thay đổi cuộc đời của hàng triệu người trên thế giới, Đắc Nhân Tâm là cuốn sách đem lại những giá trị tuyệt vời cho người đọc, bao gồm những lời khuyên cực kì bổ ích về cách ứng xử trong cuộc sống hàng ngày. Sức lan toả của quyển sách vô cùng rộng lớn – với nhiều tầng lớp, đối tượng.",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/8.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": 1020
+        },
+        "author": "Dale Carnegie",
+        "company": "First News - Trí Việt",
+        "publishingCompany": "Nhà Xuất Bản Tổng hợp TP.HCM"
+    },
+    {
+        "id": 9,
+        "title": "Sói đội lốt Cừu - Kẻ hiếu chiến ngầm và các thủ thuật thao túng tâm lí",
+        "price": "72.000đ",
+        "description": "Mỗi khi bị thao túng tâm lí và đối xử tàn tệ, nạn nhân thường tự diễn giải và hợp lí hóa cho các hành vi lệch lạc của kẻ thao túng. Họ cho rằng kẻ thao túng—những con sói đội lốt cừu—thường không cố ý làm hại người xung quanh, rằng các hành vi xấu ấy vốn có nguyên nhân là những tổn thương tâm lí ẩn bên trong kẻ thao túng.",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/9.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 420
+        },
+        "author": "Bác sĩ George K. Simon",
+        "company": "Ecoblader",
+        "publishingCompany": "Nhà Xuất Bản Kinh Tế TPHCM"
+    },
+    {
+        "id": 10,
+        "title": "Charlie Munger – Nhà Đầu Tư Thông Minh Trên Thị Trường Chứng Khoán",
+        "price": "93.000đ",
+        "description": "Là “bộ não” của đế chế đầu tư hàng đầu hành tinh - Berkshire Hathaway, Charlie Munger đứng trong hàng ngũ những doanh nhân kiệt xuất nhất thời hiện đại. Được đào tạo để trở thành một luật sư, chưa từng tham gia bất kỳ một lớp học nào về kinh tế, tiếp thị hay kế toán, nhưng Charlie Munger lại sở hữu tư duy kinh doanh vượt trội với những chiến tích lẫy lừng. Cùng với người bạn thân Warren Buffett, ông đã truyền cảm hứng cho vô số con người trên hành trình vươn tới thành công rực rỡ.",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/10.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        },
+        "author": "David Clark",
+        "company": "1980 Books",
+        "publishingCompany": "Nhà Xuất Bản Lao Động"
+    },
+    {
+        "id": 11,
+        "title": "Cây Cam Ngọt Của Tôi",
+        "price": "78.000đ",
+        "description": "Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/11.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 319
+        },
+        "author": "José Mauro de Vasconcelos",
+        "company": "Nhã Nam",
+        "publishingCompany": "Nhà Xuất Bản Hội Nhà Văn"
+    },
+    {
+        "id": 12,
+        "title": "Tâm Lý Học - Phác Họa Chân Dung Kẻ Phạm Tội",
+        "price": "87.000đ",
+        "description": "Tội phạm, nhất là những vụ án mạng, luôn là một chủ đề thu hút sự quan tâm của công chúng, khơi gợi sự hiếu kỳ của bất cứ ai. Một khi đã bắt đầu theo dõi vụ án, hẳn bạn không thể không quan tâm tới kết cục, đặc biệt là cách thức và động cơ của kẻ sát nhân, từ những vụ án phạm vi hẹp cho đến những vụ án làm rúng động cả thế giới.",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/12.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 400
+        },
+        "author": "Diệp Hồng Vũ",
+        "company": "BeBooks",
+        "publishingCompany": "Nhà Xuất Bản Thanh Niên"
+    },
+    {
+        "id": 13,
+        "title": "Xấu Thế Nào, Đẹp Ra Sao - Bí Kíp Thẩm Định Thiết Kế Trong Marketing",
+        "price": "122.000đ",
+        "description": "Với 9 bí kíp thẩm định thiết kế được trình bày đơn giản và dễ hiểu, checklist 20 câu hỏi gợi ý kiểm định cùng các trải nghiệm tương tác trực tiếp qua các trò chơi và thử thách thú vị, người đọc sẽ nhanh chóng nắm bắt các yếu tố cốt lõi trong thẩm mỹ cũng như dễ dàng ứng dụng thiết kế vào hoạt động Marketing thương hiệu bài bản.",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/13.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 350
+        },
+        "author": "Rio Creative",
+        "company": "Nhà Xuất Bản Đại Học Quốc Gia Hà Nội",
+        "publishingCompany": "Nhà Xuất Bản Đại Học Quốc Gia Hà Nội"
+    },
+    {
+        "id": 14,
+        "title": "Càng Kỷ Luật, Càng Tự Do",
+        "price": "66.000đ",
+        "description": "KỶ LUẬT vốn là ván cờ bạn phải tự đấu với chính mình. Thắng - bạn sẽ có được “bản năng của người mạnh mẽ nhất”, đó là sự tự kiểm soát bản thân. Thua - bạn mãi sống trong cảm giác tạm bợ, nuối tiếc. Càng dễ dàng dung túng cho những thói quen trì hoãn bao nhiêu, cuộc sống của bạn sẽ đi càng nhanh tới sự mất kiểm soát và thiếu quy hoạch bấy nhiêu.",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/14.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 530
+        },
+        "author": "Ca Tây",
+        "company": "Công Ty TNHH Văn Hóa và Truyền Thông AZ Việt Nam",
+        "publishingCompany": "Nhà Xuất Bản Thanh Niên"
+    },
+    {
+        "id": 15,
+        "title": "Đại Dương Đen - Những Câu Chuyện Từ Thế Giới Của Trầm Cảm",
+        "price": "144.000đ",
+        "description": "“Tôi sợ những cơn của mình, chúng xâm chiếm não bộ tôi, nhấn chìm lý trí của tôi, chúng phơi bày sự đau đớn, cô đơn, nỗi sầu thảm suốt những năm tháng niên thiếu của tôi, sự ám ảnh của bạo lực, của lẻ loi, của tức giận vì chẳng được ai giúp đỡ. Trong những giấc mơ, tôi thét lên với mọi người, cố gắng diễn đạt sự sợ hãi và tuyệt vọng của mình, nhưng không ai hiểu.”",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/15.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 1328
+        },
+        "author": "Đặng Hoàng Giang",
+        "company": "Nhã Nam",
+        "publishingCompany": "Nhà Xuất Bản Hội Nhà Văn"
+    },
+    {
+        "id": 16,
+        "title": "Chuyện Kể Rằng Có Nàng Và Tôi",
+        "price": "45.000đ",
+        "description": "Đối với những người trẻ được sống như ý không phải lúc nào cũng dễ dàng, đặc biệt với những người đã phải trải qua một quãng thời gian khó khăn rồi mới có thể tìm được con người thật của mình, là chính mình. Những câu chuyện tình của họ có nhiều dang dở vì những mặc cảm, rào cản, khao khát được làm điều mình muốn, gắn bó với người mình yêu thương cả đời là các mong ước nhỏ trong lòng.",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/16.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 639
+        },
+        "author": "Nhiều tác giả",
+        "company": "DEEP BOOKS",
+        "publishingCompany": "Nhà Xuất Bản Phụ Nữ Việt Nam"
+    },
+    {
+        "id": 17,
+        "title": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+        "price": "54.000đ",
+        "description": "“Bạn hối tiếc vì không nắm bắt lấy một cơ hội nào đó, chẳng có ai phải mất ngủ. Bạn trải qua những ngày tháng nhạt nhẽo với công việc bạn căm ghét, người ta chẳng hề bận lòng. Bạn có chết mòn nơi xó tường với những ước mơ dang dở, đó không phải là việc của họ. Suy cho cùng, quyết định là ở bạn. Muốn có điều gì hay không là tùy bạn. Nên hãy làm những điều bạn thích. Hãy đi theo tiếng nói trái tim. Hãy sống theo cách bạn cho là mình nên sống. Vì sau tất cả, chẳng ai quan tâm.”",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/17.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        },
+        "author": "Rosie Nguyễn",
+        "company": "Nhã Nam",
+        "publishingCompany": "Nhà Xuất Bản Hội Nhà Văn"
+    },
+    {
+        "id": 18,
+        "title": "Hãy Khiến Tương Lai Biết Ơn Vì Hiện Tại Bạn Đã Cố Gắng Hết Mình",
+        "price": "60.000đ",
+        "description": "“Trong cuộc sống, chúng ta đều sẽ gặp phải hình mẫu 'con nhà người ta' khiến bạn rối tinh rối mù vì không ngừng so sánh chính mình, nhưng nghĩ kĩ lại, có thể chính bạn cũng là 'con nhà người ta' với một ai đó khác. Nên quan trọng, người cần phải so sách, không phải là ai đó ngoài kia, mà là chính bạn. Sự cố gắng của bạn, sẽ không bao giờ đem lại được sự xuất sắc giống hệt người ta, nhưng bạn có thể dựa vào sự nỗ lực đó để tìm ra giá trị riêng cho bản thân mình”",
+        "category": "Sách kỹ năng sống",
+        "image": "./src/assets/images/products/18.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 730
+        },
+        "author": "Bạch Tô",
+        "company": "Peachbooks",
+        "publishingCompany": "Nhà Xuất Bản Văn Học"
+    },
+    {
+        "id": 19,
+        "title": "Think And Grow Rich - 13 Nguyên Tắc Nghĩ Giàu, Làm Giàu",
+        "price": "88.000đ",
+        "description": "Think and grow rich – 13 nguyên tắc nghĩ giàu, làm giàu là cuốn sách “chỉ dẫn” duy nhất chỉ ra những nguồn lực bạn phải có để thành công. Mỗi chương trong cuốn sách đều đề cập đến bí quyết kiếm tiền, từ việc có niềm tin, có mong muốn đến những kiến thức chuyên sâu, những ý tưởng, những kế hoạch, những cách đưa ra quyết định.",
+        "category": "Sách kinh tế",
+        "image": "./src/assets/images/products/19.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 827
+        },
+        "author": "Napoleon Hill",
+        "company": "First News - Trí Việt",
+        "publishingCompany": "Nhà Xuất Bản Tổng hợp TP.HCM"
+    },
+    {
+        "id": 20,
+        "title": "Sự Im Lặng Của Bầy Cừu",
+        "price": 12.99,
+        "description": "Những cuộc phỏng vấn ở xà lim với kẻ ăn thịt người ham thích trò đùa trí tuệ, những tiết lộ nửa chừng hắn chỉ dành cho kẻ nào thông minh, những cái nhìn xuyên thấu thân phận và suy tư của cô mà đôi khi cô muốn lảng trá Clarice Starling đã dấn thân vào cuộc điều tra án giết người lột da hàng loạt như thế, để rồi trong tiếng bức bối của chiếc đồng hồ đếm ngược về cái chết, cô phải vật lộn để chấm dứt tiếng kêu bao lâu nay vẫn đeo đẳng giấc mơ mình: tiếng kêu của bầy cừu sắp bị đem đi giết thịt.",
+        "category": "Sách văn học",
+        "image": "./src/assets/images/products/20.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 1356
+        },
+        "author": "Thomas Harris",
+        "company": "Nhã Nam",
+        "publishingCompany": "Nhà Xuất Bản Hội Nhà Văn"
+    }
+]

@@ -1,0 +1,105 @@
+.cart {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 7px;
+    margin-left: auto;
+    &-img {
+        width: 100%;
+        fill: var(--white);
+    }
+    &-results {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+    &-results::before {
+        content: '';
+        display: block;
+        border-style: solid;
+        border-width: 14px 22px;
+        border-color: transparent transparent #fff transparent;
+        position: absolute;
+        top: -22px;
+        right: 20px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    .badge {
+        position: absolute;
+        top: -4px;
+        color: var(--primary);
+        border-radius: 40%;
+        background-color: var(--white);
+        min-width: 1.5rem;
+        font-size: 1.5rem;
+        padding: 0 0.5rem;
+        // padding-right: 0.3125rem;
+        text-align: center;
+    }
+}
+.title {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.26);
+    line-height: 2.4rem;
+    text-transform: capitalize;
+}
+.view-cart {
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    &-btn {
+        margin-left: auto;
+    }
+}
+.empty {
+    position: relative;
+    width: 400px;
+    padding: 50px;
+
+    img {
+        position: relative;
+        width: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    h4 {
+        text-align: center;
+        font-weight: 500;
+        margin-top: 10px;
+        user-select: none;
+    }
+}
+.item-wrapper {
+    display: flex;
+    width: 100%;
+    width: 400px;
+    padding: 10px;
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+    &:hover {
+        background-color: #fafafa;
+        cursor: pointer;
+    }
+}
+.item-product-img {
+    width: 42px;
+    height: 42px;
+}
+.item-info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.item-name {
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-price {
+    margin-left: auto;
+    color: var(--primary);
+}

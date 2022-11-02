@@ -1,0 +1,191 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-brightness-70);
+    display: flex;
+    overflow: hidden;
+    .layout {
+        transition: 0.1s;
+        z-index: 0;
+    }
+    .layout-1 {
+        position: absolute;
+        top: -12%;
+        left: 18%;
+        width: 20%;
+        height: 40%;
+        clip-path: polygon(0 0, 100% 0%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+    }
+    .layout-2 {
+        position: absolute;
+        top: 12%;
+        left: 25%;
+        width: 40%;
+        height: 80%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+    }
+    .layout-3 {
+        position: absolute;
+        top: 22%;
+        left: 8%;
+        width: 16%;
+        height: 32%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+    }
+    .layout-4 {
+        position: absolute;
+        left: 48%;
+        bottom: -5%;
+        backface-visibility: hidden;
+        width: 16%;
+        height: 32%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+
+        overflow: hidden;
+    }
+
+    .layout-5 {
+        position: absolute;
+        top: -35%;
+        right: -22%;
+        width: 40%;
+        height: 80%;
+        clip-path: polygon(0 0, 100% 0%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+    }
+    .layout-6 {
+        position: absolute;
+        top: 30%;
+        right: -8%;
+        width: 16%;
+        height: 32%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--primary);
+    }
+    .layout-7 {
+        position: absolute;
+        bottom: -5%;
+        right: -5%;
+        width: 16%;
+        height: 32%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--white);
+        .inside {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            right: 2px;
+            bottom: 2px;
+            background-color: var(--primary-brightness-70);
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        }
+    }
+    .layout-8 {
+        position: absolute;
+        top: -5%;
+        left: -5%;
+        width: 16%;
+        height: 32%;
+        clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        background-color: var(--white);
+        .inside {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            right: 2px;
+            bottom: 2px;
+            background-color: var(--primary-brightness-70);
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+        }
+    }
+
+    &:hover .layout {
+        transform: translate3d(-2px, -2px, 2px);
+    }
+    .column {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        .book-image {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+        .member {
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            display: flex;
+            user-select: none;
+            z-index: 2;
+            .counter {
+                display: flex;
+                color: var(--white);
+                align-items: center;
+                &:first-child {
+                    margin-right: 40px;
+                }
+                &-up {
+                    font-weight: 800;
+                    font-size: 6rem;
+                    margin-right: 8px;
+                }
+                &-title {
+                    position: relative;
+                    width: 100px;
+                    text-transform: uppercase;
+                    font-size: 1.4rem;
+                    text-align: center;
+
+                    &:before {
+                        content: ' ';
+                        display: block;
+                        border-left: 2px solid var(--white);
+                        // margin-right: 10px;
+                        height: 2rem;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+        .title {
+            position: relative;
+            margin-top: 50px;
+            color: var(--white);
+            font-size: 14rem;
+            line-height: 14rem;
+            letter-spacing: 0.7rem;
+            text-align: center;
+            text-transform: uppercase;
+            user-select: none;
+            z-index: 3;
+        }
+        .button {
+            position: relative;
+            padding: 16px 32px;
+            margin-top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            text-transform: uppercase;
+            color: var(--white);
+            font-weight: 600;
+            background-color: #ffffff1a;
+            border: 2px solid var(--white);
+            transition: 0.4s;
+            &:hover {
+                background-color: var(--white);
+                color: var(--black);
+            }
+        }
+    }
+}
